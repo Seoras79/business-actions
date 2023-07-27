@@ -4,8 +4,7 @@ name: Test and Deploy
 #  VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
 jobs:
   test:
     name: Test
