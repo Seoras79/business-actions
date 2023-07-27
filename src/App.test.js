@@ -12,10 +12,10 @@ it('should render', () => {
   expect(screen.getByText('Business Contacts')).toBeInTheDocument();
 });
 
-/** it('should not fail', () => {
-  expect(true).toBe(false);
+it('should not fail', () => {
+  expect(true).toBe(true);
 });
 
-it('should do something amazing', () => {
+/** it('should do something amazing', () => {
   expect(true).toBe(false);
 }); */
